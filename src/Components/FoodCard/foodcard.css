@@ -1,0 +1,21 @@
+.food-card{
+    width:300px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+
+}
+.food-card:hover{
+    box-shadow:0 0 10px rgba(16, 13, 13, 0.2); 
+    transition: 0.3s;
+    transform: rotate(-1deg);
+}
+.food-card-title{
+    text-align: center;
+    color:deeppink;
+    font-size: 22px;
+    margin:0;
+}
